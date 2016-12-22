@@ -12,7 +12,7 @@ import { AuthService } from '../../auth';
       [authenticated]="auth.authenticated"
       (signOut)="signOut()"></app-header>
 
-    <main class="main">
+    <main class="main container master-container">
       <router-outlet></router-outlet>
     </main>
   `

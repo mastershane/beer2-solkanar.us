@@ -41,6 +41,7 @@
     "@angular/platform-browser-dynamic": "2.2.0",
     "@angular/router": "3.2.0",
     "@angular/upgrade": "2.2.0",
+    "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.15",
     "angularfire2": "2.0.0-beta.5",
     "core-js": "~2.4.1",
     "firebase": "3.5.2",
@@ -97,10 +98,25 @@
     "email": "objectiv@gmail.com"
   },
   "contributors": [
-    {"name": "Cody Lundquist", "email": "cody.lundquist@gmail.com"},
-    {"name": "Jason Shultz", "email": ""},
-    {"name": "Luke Schlangen", "email": "luke@lukeschlangen.com"},
-    {"name": "Sinan Bolel", "email": "sinanbolel@gmail.com"},
-    {"name": "Yannick Koehler", "email": "yannick@koehler.name"}
+    {
+      "name": "Cody Lundquist",
+      "email": "cody.lundquist@gmail.com"
+    },
+    {
+      "name": "Jason Shultz",
+      "email": ""
+    },
+    {
+      "name": "Luke Schlangen",
+      "email": "luke@lukeschlangen.com"
+    },
+    {
+      "name": "Sinan Bolel",
+      "email": "sinanbolel@gmail.com"
+    },
+    {
+      "name": "Yannick Koehler",
+      "email": "yannick@koehler.name"
+    }
   ]
 }

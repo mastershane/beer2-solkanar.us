@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AuthModule } from '../auth';
 import { FirebaseModule } from '../firebase';
 import { TasksModule } from '../tasks';
+import { CalculatorModule} from '../calculator'
 
 import { AppComponent } from './components/app';
 import { AppHeaderComponent } from './components/app-header';
@@ -21,9 +23,11 @@ import { AppHeaderComponent } from './components/app-header';
   imports: [
     BrowserModule,
     RouterModule.forRoot([], {useHash: false}),
+    NgbModule.forRoot(),
     AuthModule,
     FirebaseModule,
-    TasksModule
+    TasksModule,
+    CalculatorModule
   ]
 })
 
